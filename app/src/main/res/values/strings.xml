@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Important points</string>
+
+    <string name="powered">MiladStOrM</string>
+    <string name="isClose">بسته است</string>
+    <string name="isOpen">باز است</string>
+    <string name="info">اطلاعات</string>
+
+</resources>

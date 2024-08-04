@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+
+
+    <!-- My Theme-->
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue_100">#5556CA</color>
+    <color name="peach">#f87c56</color>
+    <color name="pink">#A1687F</color>
+    <color name="purple_100">#C6B5E2</color>
+    <color name="purple_200">#A79CF1</color>
+    <color name="purple_300">#8D73BC</color>
+    <color name="purple_400">#402E51</color>
+    <color name="purple_500">#0B0817</color>
+
+
+
+
+    <color name="green">#80ed99</color>
+    <color name="blue">#003049</color>
+    <color name="blue_200">#35556C</color>
+    <color name="blue_400">#40C0E7</color>
+    <color name="red">#d62828</color>
+    <color name="orange">#f77f00</color>
+    <color name="yellow_100">#F0E9C9</color>
+    <color name="yellow_200">#eae2b7</color>
+    <color name="yellow_300">#fcbf49</color>
+    <color name="yellow_250">#F6D489</color>
+
+
+
+    <color name="without">#00FFFFFF</color>
+    <color name="theme_1">#3A4499</color>
+    <color name="theme_2">#FD6057</color>
+    <color name="theme_3">#FC9E54</color>
+    <color name="theme_4">#FFC465</color>
+    <color name="theme_5">#F7F2ED</color>
+
+
+
+    // best
+
+    <color name="test1">#363062</color> // 1d1a39
+    <color name="test2">#4D4C7D</color>
+    <color name="test3">#827397</color>
+    <color name="test4">#D8B9C3</color>
+    <color name="test5">#F6E9E9</color>
+
+    <color name="card">@color/test2</color>
+    <color name="innerCard">@color/test3</color>
+
+    <color name="bg_icon">@color/theme_5</color>
+    <color name="bg_iconNavigationBar">@color/test1</color>
+
+    <color name="icon">@color/test2</color>
+    <color name="iconNavigationBar">@color/test4</color>
+    <color name="iconSimple">@color/test5</color>
+
+
+    <color name="divider">@color/theme_5</color>
+    <color name="text">@color/theme_5</color>
+    <color name="text_low">#CCF7F2ED</color>
+    <color name="innerText">@color/test1</color>
+    <color name="innerTextCard">@color/test5</color>
+    <color name="border">@color/theme_5</color>
+    <color name="important">@color/yellow_300</color>
+    <color name="number">@color/green</color>
+    <color name="help">@color/theme_4</color>
+    <color name="shadow">#66000000</color>
+
+    <color name="navigationBar">@color/test5</color>
+    <color name="actionBar">@color/test2</color>
+    <color name="statusBar">@color/test2</color>
+    <color name="background">@color/test1</color>
+    <color name="wrongBorder">@color/theme_2</color>
+    <color name="correctBorder">@color/green</color>
+
+
+
+    <color name="high">@color/green</color>
+    <color name="low">@color/theme_5</color>
+
+
+
+    <color name="toast">@color/purple_500</color>
+
+
+    <color name="tabSelected">@color/theme_4</color>
+    <color name="tabUnselected">@color/test2</color>
+    <color name="tabUnselected_2">@color/test1</color>
+
+    <color name="open">@color/green</color>
+    <color name="close">@color/wrongBorder</color>
+
+
+
+</resources>

@@ -1,0 +1,189 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ImportantPoints" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/statusBar</item>
+        <item name="colorPrimaryVariant">@color/statusBar</item>
+        <item name="colorOnPrimary">@color/statusBar</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/statusBar</item>
+        <item name="colorSecondaryVariant">@color/statusBar</item>
+        <item name="colorOnSecondary">@color/statusBar</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here. -->
+        <item name="android:textViewStyle">@style/Font</item>
+        <!-- Define the font family for all EditTexts -->
+        <item name="android:fontFamily">@font/vazir</item>
+        <item name="android:listDivider">@color/purple_500</item>
+
+        <!--        <item name="android:windowTranslucentStatus">true</item>-->
+        <!--        <item name="android:windowTranslucentNavigation">true</item>-->
+
+        <!--        <item name="android:windowFullscreen">true</item>-->
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--    <style name="mainPopupMenu" parent="body_verySmall">-->
+    <!--        &lt;!&ndash;        <item name="popupMenuBackground">@drawable/popup_menu_background</item>&ndash;&gt;-->
+    <!--        &lt;!&ndash;        <item name="android:itemBackground">@color/navyBlue_200</item>&ndash;&gt;-->
+    <!--        <item name="android:textColor">@color/text_low</item>-->
+    <!--        <item name="iconTint">@color/text_low</item>-->
+    <!--        <item name="android:layoutDirection">ltr</item>-->
+    <!--        <item name="popupMenuStyle">@style/windowPopupMenu</item>-->
+
+    <!--    </style>-->
+
+    <!--    <style name="windowPopupMenu" parent="@style/Widget.AppCompat.PopupMenu">-->
+    <!--        <item name="android:dropDownHorizontalOffset">@dimen/_10sdp</item>-->
+    <!--        <item name="android:dropDownVerticalOffset">@dimen/_10sdp</item>-->
+    <!--        <item name="android:popupBackground">@drawable/popup_menu_background</item>-->
+    <!--    </style>-->
+
+    <style name="MyTextInputLayout_overlay">
+        <item name="colorOnSurface">@color/text</item>
+        <item name="colorPrimary">@color/text</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+    </style>
+
+
+    <style name="Theme.Game_boom" parent="Base.Theme.ImportantPoints" />
+
+
+
+
+
+
+
+    <style name="Font" >
+        <item name="android:fontFamily">@font/vazir</item>
+    </style>
+
+
+
+    <style name="CustomCardTop" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/cardCornerTop</item>
+    </style>
+
+    <style name="CustomCardBot" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/cardCornerBot</item>
+    </style>
+
+    <style name="cardCornerTop" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">@dimen/_10sdp</item>
+        <item name="cornerSizeTopLeft">@dimen/_10sdp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <style name="cardCornerBot" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeBottomRight">@dimen/_10sdp</item>
+        <item name="cornerSizeBottomLeft">@dimen/_10sdp</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+
+
+    <style name="title_small" parent="singleLine">
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="title_normal" parent="singleLine">
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="body_verySmall">
+        <item name="android:textSize">@dimen/_8sdp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="body_small">
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:textColor">@color/innerTextCard</item>
+    </style>
+
+    <style name="body_normal">
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="body_big">
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="tab_normal_selected">
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:textColor">@color/innerText</item>
+        <item name="backgroundTint">@color/tabSelected</item>
+    </style>
+
+    <style name="tab_normal_unselected">
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="backgroundTint">@color/tabUnselected</item>
+    </style>
+
+    <style name="warning">
+        <item name="android:textSize">@dimen/_8sdp</item>
+        <item name="android:textColor">@color/help</item>
+    </style>
+
+
+
+    <style name="singleLine">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="divider">
+        <item name="android:background">@color/divider</item>
+        <item name="android:alpha">0.3</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+    <style name="iconSquare">
+        <item name="android:background">@drawable/shape_circle_5</item>
+        <item name="android:backgroundTint">@color/bg_icon</item>
+        <item name="tint">@color/icon</item>
+    </style>
+
+    <style name="iconCircle">
+        <item name="android:background">@drawable/shape_circle</item>
+        <item name="android:backgroundTint">@color/bg_icon</item>
+        <item name="tint">@color/icon</item>
+    </style>
+
+    <style name="iconSimple">
+        <item name="tint">@color/iconSimple</item>
+    </style>
+
+</resources>
